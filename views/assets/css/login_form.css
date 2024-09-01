@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#desktop-nav {
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+
+.input-login {
+    margin-right: 5px; /* Add margin between inputs */
+    box-sizing: border-box; /* Ensure that padding is included in width */
+}
+
+
+#login,
+#time {
+    cursor: pointer;
+}
+
+
+
+#inputContainer input[type="text"],
+#inputContainer input[type="password"] {
+    height: 33px;
+    width: 150px;   
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+#inputContainer input[type="submit"] {
+    width: 100px;
+    height: 33px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+} 
+
+/*
+
+.slide-button{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+} 
+
+HIDE THE INPUT ONLY 
+*/
+
+#inputContainer input[type='submit']:hover{
+    background-color: #0c2b4d;
+}
+
+
+.cite-logo {
+    margin-top: 80px;
+    height: 120px;
+    width: 20vh;
+}
+
+
+#body-login {
+    position: relative;
+    height: 90vh;
+    align-items: center; 
+    text-align: center;
+}
+
+
+.school-name {
+    font-weight: 900;   
+    padding: 20px;
+    margin: 0 auto; /* Center horizontally */
+    width: 800px;
+    height: 60px;
+    color: #09203f;
+    font-size: 3.5rem;
+}
+
+
+.dashboard-login {
+    display: flex; /* Add display flex */
+    flex-direction: column; /* Arrange contents vertically */
+    align-items: center; /* Center contents horizontally */
+    margin: auto; /* margin to make the position center*/
+    margin-top: 40px;
+    height: 300px;
+    width: 400px;
+
+    /* To make the background blur */
+    background: linear-gradient(90deg ,rgba(97, 200, 255, 0.5),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    /* --------------------------------------------------------------------------------------- */
+
+}
+
+
+.body-input {
+    padding-top: 10px;
+}
+
+
+.dashboard-login input[type="text"],
+.dashboard-login input[type="password"]{
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;    
+    height: 35px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+
+.dashboard-login input[type='submit']{
+    width: 200px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.body-input input[type='submit']:hover {
+    background-color: #0c2b4d;
+}
+
+
+/* ------------------CLOCK-------------------- */
+
+.clockdate-wrapper {
+    color: #09203f;
+    padding:10px;
+    max-width:350px;
+    width:100%;
+    text-align:center;
+    border-radius:5px;
+    margin:0 auto;
+  
+}
+
+#clock{
+    font-family: Digital-7, 'sans-serif';
+    font-size:60px;
+    text-shadow:0px 0px 1px #fff;
+    ;
+}
+
+#clock span {
+    text-shadow:0px 0px 1px #333;
+    font-size:50px;
+    position:relative;
+    top:-5px;
+    left:10px;
+}
+
+#date {
+    letter-spacing:3px;
+    font-size:14px;
+    font-family:arial,sans-serif;
+}
+
+/* -------------------------------------------------------- */
