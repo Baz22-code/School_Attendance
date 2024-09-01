@@ -17,14 +17,15 @@
             alt="CITE logo"
             class="cite-logo" 
         >
-       <!-- <button class="slide-button">Slide</button> HIDE THE INPUT ONLY--> 
+        <!--
+       /// <button class="slide-button">Slide</button> HIDE THE INPUT ONLY
         <div id="inputContainer" class="input-login">
-            <!-- student input and the placeholder is the letter that show when you are input -->
+            ///student input and the placeholder is the letter that show when you are input 
             <input type="text" id="id" name="studentId" placeholder="ID">   
             <input type="password" id="pass" name="Password" placeholder="PASSWORD"> 
             <input type="submit"  id="login"   value="Login">    
         </div>
-            
+           -->
     </header>
 
     <div id="body-login">
@@ -32,20 +33,19 @@
         <h1 class="school-name"> CITE Technical Institutes</h1>
     
         <div class="dashboard-login">
-            <div class="clockdate-wrapper">
-                <div id="clock"></div>
-                <div id="date"></div>
+            <div class="attendance_name">
+                <h3>Attendance</h3>
               </div>
             <div class="body-input">
-                <input type="text" name="studentId" placeholder="BIO ID">
-                <input type="password" name="pin" placeholder="PIN">
-                <input type="submit" id="time" value=" TimeIn / TimeOut">
+                <input type="text" name="name" placeholder="Name">
+                <input type="password" name="password" placeholder="Password">
+                <input type="submit" id="time" value="Login">
             </div>
         </div>
 
     </div>
     
-    <script src="views/assets/js/login_form .js"></script>
+    <script src="views/assets/js/login_form.js"></script>
 </body>
 
 </html>
